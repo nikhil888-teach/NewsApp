@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="news_tiltle_will_be_display_here">News Tiltle Will be Display Here</string>
+    <string name="visit_source">Visit Source</string>
+    <string name="todo">TODO</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_image_url">Enter Image Url</string>
+    <string name="upload_news">UPLOAD NEWS</string>
+</resources>

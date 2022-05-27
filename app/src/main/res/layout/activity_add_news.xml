@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".add_news">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_image_url"
+        android:id="@+id/edturl"
+        android:background="@drawable/custom_edittext"
+        android:gravity="center"
+        android:inputType="textUri"
+        android:textColor="@color/black"
+        android:importantForAutofill="no" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_title"
+        android:id="@+id/edtTitle"
+        android:background="@drawable/custom_edittext"
+        android:gravity="center"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:importantForAutofill="no" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_url"
+        android:id="@+id/edtlink"
+        android:background="@drawable/custom_edittext"
+        android:gravity="center"
+        android:inputType="textUri"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/upload_news"
+        android:id="@+id/uploadnews"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        />
+
+</LinearLayout>
